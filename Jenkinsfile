@@ -10,6 +10,7 @@ agent any
                          steps {
         sh """
         ls -la
+		printenv
 		echo "feature2 request branch"
         """
       }
