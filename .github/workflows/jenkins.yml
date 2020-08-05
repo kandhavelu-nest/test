@@ -9,6 +9,7 @@ on:
   pull_request:
     branches: 
       - master
+      - dev
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -23,5 +24,5 @@ jobs:
       with:
         url: "http://54.202.134.70:32656/"
         user: "admin"
-        token: ${{ secrets.JENKINS_TOKEN }}
-        job: "branch test"
+        token: "11f0a08a3f581e5c1b78afe1b33ce6ec7b"
+        job: "test"
