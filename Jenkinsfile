@@ -11,7 +11,7 @@ agent any
         sh """
         ls -la
 		echo " dev request branch"
-		sleep 100
+		sleep 60
         """
       }
         }
