@@ -10,7 +10,7 @@ agent any
                          steps {
         sh """
         ls -la
-		echo "dev branch"
+		echo " pull request branch"
         """
       }
         }
